@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1600" viewBox="0 0 900 1600">
+  <defs>
+    <filter id="paperShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#06121f" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1600" fill="#07111f"/>
+  <rect x="58" y="64" width="784" height="1472" rx="28" fill="#ffffff" filter="url(#paperShadow)"/>
+  <g opacity=".12" transform="rotate(-28 450 800)">
+    <text x="-50" y="360" fill="#0b5f96" font-family="Arial, sans-serif" font-size="82" font-weight="900">casteen</text>
+    <text x="260" y="610" fill="#0b5f96" font-family="Arial, sans-serif" font-size="82" font-weight="900">casteen</text>
+    <text x="-30" y="860" fill="#0b5f96" font-family="Arial, sans-serif" font-size="82" font-weight="900">casteen</text>
+    <text x="260" y="1110" fill="#0b5f96" font-family="Arial, sans-serif" font-size="82" font-weight="900">casteen</text>
+  </g>
+  <g font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="90" y="94" width="720" height="72" fill="#f6f8fb" stroke="#d9e0ea"/>
+    <text x="112" y="140" fill="#303846" font-size="22">instagram</text>
+    <text x="226" y="140" fill="#303846" font-size="22">0%</text>
+    <text x="340" y="140" fill="#303846" font-size="22">演员互动</text>
+    <text x="480" y="140" fill="#303846" font-size="22">活动以及互动主阵地</text>
+    <text x="704" y="140" fill="#111827" font-size="22">★★★☆☆</text>
+
+    <text x="90" y="236" fill="#1f2937" font-size="34" font-weight="900">三阶段宣发节奏</text>
+
+    <text x="90" y="304" fill="#1f2937" font-size="28" font-weight="900">第一阶段：预热蓄水（开播前7天）</text>
+    <g fill="#1263ff" font-size="20">
+      <circle cx="108" cy="354" r="4"/><circle cx="108" cy="400" r="4"/><circle cx="108" cy="446" r="4"/>
+      <circle cx="108" cy="492" r="4"/><circle cx="108" cy="538" r="4"/><circle cx="108" cy="584" r="4"/>
+    </g>
+    <g fill="#293241" font-size="22">
+      <text x="126" y="362">剪辑「悬念预告片」（30秒）挂话题预热，发布3条不同钩子类型测试反应</text>
+      <text x="126" y="408">账号矩阵全部建立完毕，完成入设定位和首条内容发布</text>
+      <text x="126" y="454">pose发布角色图文介绍＋剧情设定pose（5篇）</text>
+      <text x="126" y="500">演员达人博主提前种草视频</text>
+      <text x="126" y="546">话题词预埋：#三年守诺 #仙人下凡守护 提前占热搜词</text>
+      <text x="126" y="592">发布bts的宣传预热视频片段，吸引提前付费内容转化</text>
+    </g>
+
+    <text x="90" y="702" fill="#1f2937" font-size="28" font-weight="900">第二阶段：爆发冲量（开播后1-3天）</text>
+    <g fill="#1263ff" font-size="20">
+      <circle cx="108" cy="752" r="4"/><circle cx="108" cy="798" r="4"/><circle cx="108" cy="844" r="4"/>
+      <circle cx="108" cy="890" r="4"/><circle cx="108" cy="936" r="4"/>
+    </g>
+    <g fill="#293241" font-size="22">
+      <text x="126" y="760">每日更新4-5条剪辑（猛剪句＋悬念钩＋反差钩 三类轮换）</text>
+      <text x="126" y="806">EP01-EP05为主要剪辑素材，高频投流驱动新用户进入</text>
+      <text x="126" y="852">话题挑战正式上线，引导UGC参与，评论区置顶互动</text>
+      <text x="126" y="898">用「倒计时字幕卡」系列每日勾起期待感，制造追更氛围</text>
+      <text x="126" y="944">第7天发起冲热榜行动，加大KOL话题讨论和二创推广量</text>
+    </g>
+
+    <text x="90" y="1056" fill="#1f2937" font-size="28" font-weight="900">第三阶段：长效运营（开播5天+）</text>
+    <g fill="#1263ff" font-size="20">
+      <circle cx="108" cy="1106" r="4"/><circle cx="108" cy="1152" r="4"/><circle cx="108" cy="1198" r="4"/>
+      <circle cx="108" cy="1244" r="4"/><circle cx="108" cy="1290" r="4"/>
+    </g>
+    <g fill="#293241" font-size="22">
+      <text x="126" y="1114">盘点向内容：「三年之约最感压10个瞬间」合集拉新回流</text>
+      <text x="126" y="1160">角色深度解析＋情感共鸣内容持续产出，维持热度</text>
+      <text x="126" y="1206">Facebook沉淀完整短剧合集</text>
+      <text x="126" y="1252">YouTube接搜索流量，主推会员订阅专享内容（长期复利资产）</text>
+      <text x="126" y="1298">完结后发布彩蛋/花絮，引导观众从1刷，延续生命周期</text>
+    </g>
+
+    <text x="90" y="1400" fill="#1f2937" font-size="34" font-weight="900">4 投流计划 &amp; 预算分配</text>
+    <rect x="90" y="1432" width="6" height="42" fill="#d7dde7"/>
+    <text x="112" y="1460" fill="#6b7280" font-size="24">测试期/放量期 · OCPM · 前5集重点投放</text>
+    <text x="90" y="1520" fill="#1f2937" font-size="28" font-weight="900">测试期核心策略</text>
+  </g>
+</svg>
