@@ -1,0 +1,74 @@
+{
+  "asOf": "2026-09-29",
+  "note": "作品原页公开数据快照，不表示自然流量或个人独立贡献；缺少的指标不补零。页面缩写为近似值，原始数值保存在这里。",
+  "works": [
+    {
+      "id": "tiktok-7657075855360920852",
+      "title": "realme P4x｜8000mAh 游戏续航",
+      "source": "https://www.tiktok.com/@realme.indonesia/video/7657075855360920852",
+      "metrics": {
+        "asOf": "2026-09-29",
+        "views": 13700000,
+        "likes": 16700,
+        "comments": 189
+      },
+      "metadataFile": "realme-1.info.json"
+    },
+    {
+      "id": "tiktok-7634855357172550919",
+      "title": "realme C100 Series｜雨中也能及时回复",
+      "source": "https://www.tiktok.com/@realme.indonesia/video/7634855357172550919",
+      "metrics": {
+        "asOf": "2026-09-29",
+        "views": 12900000,
+        "likes": 16000,
+        "comments": 132
+      },
+      "metadataFile": "realme-2.info.json"
+    },
+    {
+      "id": "realme-c100-teaser",
+      "title": "realme C100 Series｜Aman Ajaaa",
+      "source": "https://www.tiktok.com/@realme.indonesia/video/7633722299027426577",
+      "metrics": {
+        "asOf": "2026-09-29",
+        "views": 115800000,
+        "likes": 120000,
+        "comments": 1739
+      },
+      "metadataFile": "realme-3.info.json"
+    },
+    {
+      "id": "facebook-1329249665768052",
+      "title": "Tim Istri Sah｜Tessa 与 Yuna",
+      "source": "https://www.facebook.com/reel/1329249665768052/",
+      "metrics": {
+        "asOf": "2026-09-29",
+        "views": 1538958
+      },
+      "metadataFile": "dopreel-1.info.json"
+    },
+    {
+      "id": "tiktok-7628881939348540692",
+      "title": "DopReel｜Jonathan 与 Zahra 演员介绍",
+      "source": "https://www.tiktok.com/@dopreel/video/7628881939348540692",
+      "metrics": {
+        "asOf": "2026-09-29",
+        "views": 66400,
+        "likes": 800,
+        "comments": 16
+      },
+      "metadataFile": "dopreel-2.info.json"
+    },
+    {
+      "id": "facebook-1527503905412000",
+      "title": "Tim Istri Sah｜Dimas 会选谁？",
+      "source": "https://www.facebook.com/reel/1527503905412000/",
+      "metrics": {
+        "asOf": "2026-09-29",
+        "views": 1757020
+      },
+      "metadataFile": "dopreel-3.info.json"
+    }
+  ]
+}

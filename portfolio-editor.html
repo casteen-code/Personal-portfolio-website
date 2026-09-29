@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>管理作品 · 李二虎</title><link rel="stylesheet" href="style.css?v=20260929-showcase"><link rel="stylesheet" href="portfolio-editor.css"><script src="video-utils.js?v=20260929-showcase" defer></script><script src="portfolio-data.js?v=20260929-showcase" defer></script><script src="portfolio-editor.js" defer></script></head>
+<body class="editor-page">
+<header class="editor-header"><a href="index.html">← 返回作品集</a><span>CASPER / CONTENT STUDIO</span></header>
+<main class="editor-main">
+  <div class="editor-intro"><p class="eyebrow">让内容成为主角</p><h1>把新作品放进来。</h1><p>选择项目，粘贴链接，补充作品背后的故事。草稿只保存在这台设备的当前浏览器中。</p></div>
+  <div class="editor-actions"><a class="button primary" id="preview-draft" href="index.html?preview=draft#projects" target="_blank" rel="noopener">预览已保存草稿 ↗</a><button class="button secondary" type="button" id="export-data">导出更新文件</button><button class="button secondary" type="button" id="export-backup">备份草稿</button><label class="button secondary import-label">导入备份<input id="import-backup" type="file" accept="application/json,.json"></label></div>
+  <p id="editor-status" class="editor-status" role="status" aria-live="polite">草稿未发布。保存后可预览；导出更新文件后，交给李二虎的网站维护流程更新。</p>
+  <div class="editor-columns">
+    <section class="editor-panel" aria-labelledby="account-heading"><p class="eyebrow">01 / 选择创作空间</p><h2 id="account-heading">项目与账号</h2>
+      <label>当前项目<select id="project-select"></select></label>
+      <button type="button" id="add-project" class="small-button">＋ 新增项目</button>
+      <form id="project-form">
+        <label>项目名称<input name="name" required maxlength="120" placeholder="例如：个人 AIGC"></label>
+        <label>一句话介绍<textarea name="description" rows="3" maxlength="1000" placeholder="这个项目主要做什么内容？"></textarea></label>
+        <label>视觉颜色<select name="theme"><option value="aigc">紫色 · 创意</option><option value="realme">黄色 · 品牌</option><option value="dopreel">青色 · 影像</option></select></label>
+        <label>账号主页<textarea name="accounts" rows="5" placeholder="一行一个：账号名称 | 主页链接&#10;抖音 · CloveE | https://..."></textarea></label>
+        <p class="field-hint">可以直接粘贴主页链接。多个账号请换行；链接前可填写账号名称，用 | 分开。</p>
+        <button type="submit" class="button secondary">保存项目与账号</button>
+      </form>
+    </section>
+    <section class="editor-panel" aria-labelledby="video-editor-heading"><p class="eyebrow">02 / 一条作品，一个故事</p><h2 id="video-editor-heading">视频与背景</h2>
+      <label>编辑作品<select id="video-select"><option value="new">＋ 添加新作品</option></select></label>
+      <form id="video-form">
+        <label>作品标题<input name="title" required maxlength="180" placeholder="为这条作品起一个名字"></label>
+        <label>视频链接或分享文字<textarea name="url" rows="2" required placeholder="粘贴单条视频链接，或含链接的分享文字"></textarea></label>
+        <p id="video-link-hint" class="field-hint" aria-live="polite">支持抖音、TikTok、YouTube、Bilibili 完整视频链接，以及 MP4。其他来源保留原页观看入口。</p>
+        <label>站内播放文件（可选）<input name="file" placeholder="assets/videos/作品.mp4 或 MP4 文件网址"></label>
+        <p class="field-hint">填入后优先播放这个文件，上方链接保留为原视频入口。先把下载的视频放入网站的 assets/videos 文件夹；这里填写文件位置，不会自动上传视频。</p>
+        <label>封面图片链接（可选）<input name="cover" placeholder="https://… 或 assets/图片文件名.jpg"></label>
+        <label>视频画面<select name="orientation"><option value="auto">自动识别</option><option value="portrait">竖屏 9:16</option><option value="landscape">横屏 16:9</option></select></label>
+        <label>项目背景<textarea name="background" rows="3" maxlength="5000" placeholder="为什么做这条内容？面向谁，要解决什么问题？"></textarea></label>
+        <label>创作思路<textarea name="idea" rows="3" maxlength="5000" placeholder="内容钩子、故事设计、视觉风格，或你的制作思路。"></textarea></label>
+        <label>我的职责<textarea name="role" rows="2" maxlength="600" placeholder="例如：选题、脚本、AI 画面制作、剪辑、账号运营。"></textarea></label>
+        <label>内容表现（可选）<textarea name="result" rows="2" maxlength="1000" placeholder="填写已有的真实反馈或数据，没有可以留空。"></textarea></label>
+        <div class="form-actions"><button type="submit" class="button primary">保存这条作品</button><button type="button" id="remove-video" class="small-button" hidden>从草稿移除</button></div>
+      </form>
+    </section>
+  </div>
+  <details class="editor-help"><summary>如何更新到正式网站？</summary><ol><li>先保存项目、账号或作品，然后点「预览已保存草稿」。</li><li>确认内容后，点「导出更新文件」，得到 portfolio-data.js 文件。</li><li>将文件交给我更新，或替换 GitHub 项目中的同名文件。只有正式提交后，线上访客才会看到更新。</li><li>修改前点「备份草稿」保存一份副本；需要恢复时点「导入备份」。</li></ol><p>抖音 / TikTok 的分享短链接需要先打开，并复制跳转后的完整视频网址。视频可能因平台权限、地区限制或删除而无法播放，页面会保留原链接。封面须使用可公开访问的图片链接；本地图片需要先加入网站的 assets 文件夹。</p></details>
+</main></body></html>
