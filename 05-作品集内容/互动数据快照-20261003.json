@@ -1,0 +1,26 @@
+{
+  "asOf": "2026-10-03",
+  "note": "原帖公开数据快照。未公开播放量不补零；点赞和评论分别来自原帖互动栏。",
+  "works": [
+    {
+      "id": "xhs-6abf972d000000000a021050",
+      "title": "闪身步｜戏曲与 AI 的一次碰撞",
+      "source": "https://xhslink.cn/o/7wsRZyzzLGZ",
+      "metrics": {
+        "asOf": "2026-10-03",
+        "likes": 23,
+        "comments": 12
+      }
+    },
+    {
+      "id": "douyin-7691636670264839443",
+      "title": "砍一刀｜把价格砍下去，别砍错对象",
+      "source": "https://www.douyin.com/video/7691636670264839443",
+      "metrics": {
+        "asOf": "2026-10-03",
+        "likes": 190,
+        "comments": 1
+      }
+    }
+  ]
+}

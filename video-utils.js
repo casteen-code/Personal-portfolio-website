@@ -50,6 +50,9 @@
       id = path.match(/\/(?:share\/)?video\/(\d{10,25})(?:\/|$)/)?.[1] || (path === "/player/video" ? url.searchParams.get("vid") : url.searchParams.get("modal_id"));
       if (id && /^\d{10,25}$/.test(id)) return { kind: "iframe", provider: "抖音", src: "https://open.douyin.com/player/video?vid=" + id + "&autoplay=0", url: safe, portrait: true };
     }
+    if (["xiaohongshu.com", "www.xiaohongshu.com", "xhslink.com", "xhslink.cn"].includes(host)) {
+      return { kind: "external", provider: "小红书", url: safe, shortLink: host.startsWith("xhslink.") };
+    }
     const shortLink = ["vm.tiktok.com", "vt.tiktok.com", "b23.tv", "v.douyin.com"].includes(host) || (["tiktok.com", "www.tiktok.com"].includes(host) && /^\/t\//.test(path));
     return { kind: "external", provider: host.replace(/^www\./, ""), url: safe, shortLink };
   }

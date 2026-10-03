@@ -17,6 +17,42 @@ window.PORTFOLIO_DATA = {
       ],
       "videos": [
         {
+          "id": "xhs-6abf972d000000000a021050",
+          "title": "闪身步｜戏曲与 AI 的一次碰撞",
+          "titleEn": "Flash Step · Chinese opera meets AI",
+          "orientation": "portrait",
+          "url": "https://xhslink.cn/o/7wsRZyzzLGZ",
+          "file": "assets/videos/personal-aigc-xhs-6abf972d000000000a021050.mp4",
+          "cover": "assets/cover-personal-aigc-xhs-6abf972d000000000a021050.jpg",
+          "background": "从日常动作示范切入，一次转身就进入戏曲人物与火光交织的场景。用几秒钟的视觉反差，回应“非遗版闪身步”话题。",
+          "backgroundEn": "An everyday movement demonstration becomes a theatrical scene of Chinese opera costume and firelight. A brief visual transformation responds to the heritage-inspired Flash Step challenge.",
+          "idea": "用相似动作连接实拍参考与 AI 画面，再以头饰、眼神和水袖特写强化戏曲美感。看点是动作转场、人物造型与光影氛围的配合；保留原片中的创作者署名。",
+          "ideaEn": "Matching movement connects the live-action reference with AI imagery. Headdress, gaze, and flowing sleeves build the opera aesthetic, with attention to the transition, character styling, and lighting. The original creator credit is preserved.",
+          "metrics": {
+            "asOf": "2026-10-03",
+            "likes": 23,
+            "comments": 12
+          }
+        },
+        {
+          "id": "douyin-7691636670264839443",
+          "title": "砍一刀｜把价格砍下去，别砍错对象",
+          "titleEn": "One Chop · Cut the price, not the wrong target",
+          "orientation": "landscape",
+          "url": "https://www.douyin.com/video/7691636670264839443",
+          "file": "assets/videos/personal-aigc-douyin-7691636670264839443.mp4",
+          "cover": "assets/cover-personal-aigc-douyin-7691636670264839443.jpg",
+          "background": "把日常“砍价”话题放进夸张的群像场景，用人物对峙与整齐划一的动作制造荒诞喜剧感。这是一条结合网络话题的个人 AIGC 创意短片。",
+          "backgroundEn": "An everyday bargain-hunting phrase becomes an absurd comedy scene, built around a face-off and synchronized crowd movement. A personal AIGC short responding to an online trend.",
+          "idea": "从主角与西装人群的反差切入，再拉开到绿地上的群体动作，让画面规模与节奏逐步变化。看点是话题转译、重复视觉元素，以及短时长内的情绪推进。",
+          "ideaEn": "Contrast between the central figure and the suited crowd leads into wider group choreography on a green field. The piece explores adapting a social trend, visual repetition, and a changing rhythm within a short runtime.",
+          "metrics": {
+            "asOf": "2026-10-03",
+            "likes": 190,
+            "comments": 1
+          }
+        },
+        {
           "id": "douyin-7685706646069606073",
           "title": "我总算懂她拍照不笑的原因了",
           "titleEn": "Why she never smiles for photos",
