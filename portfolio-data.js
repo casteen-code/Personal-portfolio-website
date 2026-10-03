@@ -13,6 +13,10 @@ window.PORTFOLIO_DATA = {
         {
           "label": "抖音 · CloveE",
           "url": "https://www.douyin.com/user/MS4wLjABAAAAGSS8A1CJeQu8BgAz3IhEQw1GwL7FaCypVDF7mNyyrZobmmaK8lRvMTC9DXUOsNYt"
+        },
+        {
+          "label": "小红书 · Capper",
+          "url": "https://xhslink.cn/o/3j80jKqei0P"
         }
       ],
       "videos": [
