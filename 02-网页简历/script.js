@@ -11,10 +11,10 @@
     document.body.dataset.lang = language;
     document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
     document.querySelectorAll('[data-zh][data-en]').forEach(node => { node.textContent = node.dataset[language]; });
-    document.title = language === 'zh' ? '李二虎 · 海外社媒增长运营简历' : 'casteen LI · Overseas Social Media & Growth Resume';
+    document.title = language === 'zh' ? '李二虎 · 海外社媒增长运营简历' : 'Casteen · Overseas Social Media & Growth Resume';
     document.querySelector('meta[name="description"]').content = language === 'zh'
-      ? '李二虎 / casteen LI 的海外社媒增长运营简历：realme 印尼品牌内容、DopReel 用户增长、网易有道广告运营及北美 TikTok 电商内容。'
-      : 'Resume of casteen LI: realme Indonesia brand content, DopReel app growth, Youdao advertising, and North American TikTok commerce content.';
+      ? '李二虎 / Casteen 的海外社媒增长运营简历：realme 印尼自然与付费内容、DopReel 广告与社媒矩阵增长、网易有道广告运营及北美 TikTok 电商内容。'
+      : 'Resume of Casteen: realme Indonesia organic and paid content, DopReel paid and social growth, Youdao advertising, and North American TikTok commerce content.';
     toggle.setAttribute('aria-label', language === 'zh' ? 'Switch to English' : '切换为中文');
     document.querySelector('.section-index nav').setAttribute('aria-label', language === 'zh' ? '简历目录' : 'Resume sections');
     try {

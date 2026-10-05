@@ -21,6 +21,42 @@ window.PORTFOLIO_DATA = {
       ],
       "videos": [
         {
+          "id": "douyin-7692282849889668378",
+          "title": "东海岸西游记｜去哪都是 C 位",
+          "titleEn": "East Coast Journey to the West · Center stage everywhere",
+          "orientation": "portrait",
+          "url": "https://www.douyin.com/video/7692282849889668378",
+          "file": "assets/videos/personal-aigc-douyin-7692282849889668378.mp4",
+          "cover": "assets/cover-personal-aigc-douyin-7692282849889668378.jpg",
+          "background": "西游人物走进东海岸街头，经典角色特征与现代时装造型形成反差。红砖建筑、橱窗反射和夜色霓虹串起街拍镜头，近景对视与四人同框让熟悉的人物呈现新的时尚气场。",
+          "backgroundEn": "Journey to the West characters enter East Coast streets, contrasting familiar character traits with modern fashion. Brick buildings, window reflections, and neon connect the street-style shots; close-up encounters and a group ending give the iconic cast a new presence.",
+          "idea": "我想把西游人物的辨识度，放进东海岸时装街拍的语境里。我的思路是保留角色的关键特征，用服装、姿态和城市光影制造跨文化反差，再从单人亮相走向团队同框，让熟悉的故事有新的视觉表达。",
+          "ideaEn": "I wanted to place recognizable Journey to the West characters in an East Coast fashion setting. I keep their defining traits while using clothes, posture, and city light to create cross-cultural contrast, moving from individual entrances to a group image for a fresh visual take on the familiar story.",
+          "metrics": {
+            "asOf": "2026-10-05",
+            "likes": 46,
+            "comments": 1
+          }
+        },
+        {
+          "id": "douyin-7692603477515622889",
+          "title": "小鬼当家｜两个月后，再看一遍",
+          "titleEn": "Home Alone · A Christmas reimagining",
+          "orientation": "portrait",
+          "url": "https://www.douyin.com/video/7692603477515622889",
+          "file": "assets/videos/personal-aigc-douyin-7692603477515622889.mp4",
+          "cover": "assets/cover-personal-aigc-douyin-7692603477515622889.jpg",
+          "background": "以《小鬼当家》的童年记忆为灵感，男孩走进玩具与礼物环绕的圣诞空间。红围巾、胡桃夹子、玩具火车和暖色灯光建立节日氛围，推车与礼物盒里的表情特写让画面带出童趣。",
+          "backgroundEn": "Inspired by childhood memories of Home Alone, a boy enters a Christmas world of toys and gifts. A red scarf, nutcrackers, a toy train, and warm lights build the festive setting, while a trolley sequence and close-ups inside a gift box add playful wonder.",
+          "idea": "我想唤起重看圣诞电影时的熟悉与惊喜，所以从人物表情和玩具细节入手。我的重点是让暖色空间、礼物和运动镜头围绕孩子的好奇心展开，用 AI 重新想象一段有电影氛围的节日小故事。",
+          "ideaEn": "I wanted to evoke the familiarity and surprise of revisiting a Christmas film, starting with expressions and toy details. My focus is on organizing warm interiors, gifts, and moving shots around a child’s curiosity, using AI to reimagine a small festive story with a cinematic mood.",
+          "metrics": {
+            "asOf": "2026-10-05",
+            "likes": 15,
+            "comments": 2
+          }
+        },
+        {
           "id": "xhs-6abf972d000000000a021050",
           "title": "闪身步｜戏曲与 AI 的一次碰撞",
           "titleEn": "Flash Step · Chinese opera meets AI",
