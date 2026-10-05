@@ -93,32 +93,6 @@ window.PORTFOLIO_DATA = {
           }
         },
         {
-          "id": "douyin-7685706646069606073",
-          "title": "我总算懂她拍照不笑的原因了",
-          "titleEn": "Why she never smiles for photos",
-          "orientation": "portrait",
-          "url": "https://www.douyin.com/video/7685706646069606073",
-          "file": "assets/videos/personal-aigc-douyin-7685706646069606073.mp4",
-          "cover": "assets/cover-personal-aigc-douyin-7685706646069606073.jpg",
-          "background": "女孩拍照时始终不笑，直到一只包袋进入画面，表情才发生变化。一个简单的悬念和前后反差，让道具自然成为故事的转折点，而不是单独展示的商品。",
-          "backgroundEn": "A girl keeps a serious face for a photo until a handbag enters the frame and changes her expression. A simple question and a clear before-and-after make the prop the story’s turning point.",
-          "idea": "我想从“她为什么不笑”这个小问题留住观众，再让笑容给出答案。这条个人概念短片里，我关注的是产品如何触发情绪变化，让观众先理解人物的感受，再记住画面里的物品。",
-          "ideaEn": "I start with a small question—why won’t she smile?—and let the smile deliver the answer. In this personal concept film, I focus on how an object triggers emotion, so viewers understand the feeling before remembering the product."
-        },
-        {
-          "id": "douyin-7680521449476951985",
-          "title": "Apple Music｜放松时的一首歌",
-          "titleEn": "Apple Music · A song to unwind",
-          "orientation": "portrait",
-          "url": "https://www.douyin.com/video/7680521449476951985",
-          "file": "assets/videos/personal-aigc-douyin-7680521449476951985.mp4",
-          "cover": "assets/cover-personal-aigc-douyin-7680521449476951985.jpg",
-          "background": "磁带、耳机和室内光影，把“听一首歌”的感受变成可见的场景变化。复古道具与现代音乐品牌形成碰撞，画面的冷暖对比承接从日常进入放松状态的情绪。",
-          "backgroundEn": "Cassettes, earphones, and interior light turn listening to a song into a visible change of scene. A retro object meets a modern music brand, with cool and warm imagery carrying the shift into relaxation.",
-          "idea": "这条 Apple Music 个人概念短片里，我想表达音乐带来的状态切换。我把磁带理解成进入情绪世界的开关，让人物、空间和光线共同讲述放松的感觉，再用品牌画面收束。",
-          "ideaEn": "In this personal Apple Music concept film, I want to express the change of state that music brings. I treat the cassette as a switch into an inner world, using the person, space, and light to convey relaxation before the brand ending."
-        },
-        {
           "id": "douyin-7677558539988094193",
           "title": "什么！一颗网球也有专属AIGC创意短片",
           "titleEn": "A tennis ball gets its own AIGC film",
