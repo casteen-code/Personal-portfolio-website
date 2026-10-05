@@ -41,6 +41,8 @@ h1{font-size:clamp(42px,4.8vw,72px);letter-spacing:-2.5px;line-height:1.25;font-
 .accent{color:var(--accent)}
 .hero-intro{max-width:490px;margin-top:25px;padding-bottom:4px}
 .hero-intro p{color:var(--muted);font-size:14px;line-height:1.95}
+.hero-intro p+p{margin-top:14px}
+.hero-intro .hero-intro-lead{color:#d9e9f4;font-weight:500}
 .text-link{font-size:13px;display:inline-flex;align-items:center;gap:22px;transition:color .2s}
 .hero-intro .text-link{margin-top:24px;border:1px solid #11dff35c;padding:11px 20px;border-radius:30px;background:#11dff310;color:#91f3fc}
 .section-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:24px;margin-bottom:30px}
@@ -186,7 +188,7 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 }
 @media(max-width:1050px){
   .nav{gap:20px}.header-actions{gap:18px}
-  .hero{gap:30px}.hero-intro{max-width:310px}
+  .hero{gap:30px}.hero-intro{max-width:490px}
   .featured-copy{padding:30px}.featured-work,.featured-art{min-height:465px}
   .channel{padding:24px 18px}.channel>a{font-size:11px}
   .work-cover{height:300px}.more-card{padding:25px}
