@@ -11,8 +11,8 @@ window.PORTFOLIO_DATA = {
       "theme": "aigc",
       "accounts": [
         {
-          "label": "抖音 · CloveE",
-          "url": "https://www.douyin.com/user/MS4wLjABAAAAGSS8A1CJeQu8BgAz3IhEQw1GwL7FaCypVDF7mNyyrZobmmaK8lRvMTC9DXUOsNYt"
+          "label": "抖音 · Capper",
+          "url": "https://www.douyin.com/user/MS4wLjABAAAAGk0-06-FMMT6g2En2qVbj8bg30kZqNWfFCdIdm-JirCiH08v8feudJ42irQxM8nB"
         },
         {
           "label": "小红书 · Capper",
