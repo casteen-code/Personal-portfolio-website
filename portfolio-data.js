@@ -227,55 +227,68 @@ window.PORTFOLIO_DATA = {
       "accounts": [
         {
           "label": "YouTube · Dopreel Indonesia",
-          "url": "https://www.youtube.com/@Dopreel-indonesia"
+          "url": "https://www.youtube.com/@Dopreel-indonesia",
+          "role": "official"
         },
         {
           "label": "TikTok · DopReel",
-          "url": "https://www.tiktok.com/@dopreel"
+          "url": "https://www.tiktok.com/@dopreel",
+          "role": "official"
         },
         {
           "label": "Instagram · @dopreel.id",
-          "url": "https://www.instagram.com/dopreel.id/"
+          "url": "https://www.instagram.com/dopreel.id/",
+          "role": "official"
         },
         {
           "label": "Facebook · DopReel",
-          "url": "https://www.facebook.com/profile.php?id=61578918253622"
+          "url": "https://www.facebook.com/profile.php?id=61578918253622",
+          "role": "official"
         },
         {
           "label": "YouTube · BintangDrama-i",
-          "url": "https://www.youtube.com/@BintangDrama-i"
+          "url": "https://www.youtube.com/@BintangDrama-i",
+          "role": "distribution"
         },
         {
           "label": "YouTube · Zona Drama Pria ID",
-          "url": "https://www.youtube.com/@zonadramapria-id"
+          "url": "https://www.youtube.com/@zonadramapria-id",
+          "role": "distribution"
         },
         {
           "label": "YouTube · Dramora ShortDrama",
-          "url": "https://www.youtube.com/@Dramora-shortDrama"
+          "url": "https://www.youtube.com/@Dramora-shortDrama",
+          "role": "distribution"
         },
         {
           "label": "YouTube · WFEpicShorts",
-          "url": "https://www.youtube.com/@WFEpicShorts"
+          "url": "https://www.youtube.com/@WFEpicShorts",
+          "role": "distribution"
         },
         {
           "label": "TikTok · @dopreel.clips",
-          "url": "https://www.tiktok.com/@dopreel.clips"
+          "url": "https://www.tiktok.com/@dopreel.clips",
+          "role": "distribution"
         },
         {
           "label": "TikTok · @dopreel_life",
-          "url": "https://www.tiktok.com/@dopreel_life"
+          "url": "https://www.tiktok.com/@dopreel_life",
+          "role": "distribution"
         },
         {
           "label": "TikTok · @dopreel_shortdramas",
-          "url": "https://www.tiktok.com/@dopreel_shortdramas"
+          "url": "https://www.tiktok.com/@dopreel_shortdramas",
+          "role": "distribution"
         },
         {
           "label": "Instagram · @dopreel.clips",
-          "url": "https://www.instagram.com/dopreel.clips/"
+          "url": "https://www.instagram.com/dopreel.clips/",
+          "role": "distribution"
         },
         {
           "label": "Instagram · @dopreel_life",
-          "url": "https://www.instagram.com/dopreel_life/"
+          "url": "https://www.instagram.com/dopreel_life/",
+          "role": "distribution"
         }
       ],
       "videos": [
@@ -332,7 +345,8 @@ window.PORTFOLIO_DATA = {
             "views": 1757020
           }
         }
-      ]
+      ],
+      "channelLayout": "brand-matrix"
     }
   ]
 };

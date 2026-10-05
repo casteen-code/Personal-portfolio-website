@@ -281,6 +281,48 @@
     return card;
   }
 
+  function channelStrategy(project) {
+    const wall = el('section', 'channel-strategy');
+    wall.id = 'strategy-' + project.id;
+    const heading = text('h4', '', '同一部短剧，两条内容路径。', 'One drama. Two content paths.');
+    heading.id = wall.id + '-title';
+    wall.setAttribute('aria-labelledby', heading.id);
+    const header = el('div', 'strategy-heading');
+    header.append(text('p', 'strategy-kicker', '账号矩阵 / CONTENT ECOSYSTEM', 'CHANNELS / CONTENT ECOSYSTEM'), heading);
+    const paths = el('div', 'strategy-paths');
+    const official = project.accounts.filter(a => a.role === 'official');
+    const distribution = project.accounts.filter(a => a.role !== 'official');
+    function channelLink(account, compact) {
+      const [platform, ...names] = account.label.split(' · ');
+      const entry = label(link(account.url, '', 'strategy-channel' + (compact ? ' is-official' : '')), '访问账号：' + account.label, 'Visit channel: ' + account.label);
+      entry.title = account.label;
+      const symbol = el('span', 'strategy-symbol', {YouTube:'▶',TikTok:'♪',Instagram:'◎',Facebook:'f'}[platform] || '↗');
+      symbol.setAttribute('aria-hidden', 'true');
+      const copy = el('span', 'strategy-channel-copy');
+      copy.append(el('span', 'strategy-channel-name', compact ? platform : names.join(' · ') || platform));
+      if (!compact) copy.append(el('span', 'strategy-channel-platform', platform));
+      const arrow = el('span', 'strategy-channel-arrow', '↗'); arrow.setAttribute('aria-hidden','true');
+      entry.append(symbol, copy, arrow);
+      return entry;
+    }
+    function path(accounts, isOfficial) {
+      const panel = el('div', 'strategy-path' + (isOfficial ? ' strategy-official' : ' strategy-distribution'));
+      panel.append(el('p', 'strategy-path-label', isOfficial ? '01 / BRAND' : '02 / DISTRIBUTION'));
+      panel.append(text('h5', '', isOfficial ? '官方号 · 建立品牌认知' : '矩阵号 · 延展分销触点', isOfficial ? 'Official · Build the brand' : 'Matrix · Extend distribution'));
+      panel.append(text('p', 'strategy-formats', isOfficial ? '幕后花絮 · 互动话题 · 蒙太奇' : '剧情内容 · 多账号分发 · 渠道承接', isOfficial ? 'Behind the scenes · Interaction · Montage' : 'Drama content · Multi-channel reach · Viewing paths'));
+      panel.append(text('p', 'strategy-purpose', isOfficial ? '让观众认识平台，也愿意参与故事。' : '把内容兴趣接到观看与变现入口，兼顾平台流量和渠道增长。', isOfficial ? 'Help viewers recognize the platform and engage with its stories.' : 'Connect interest with viewing and monetization paths, supporting reach and channel growth.'));
+      const directory = el('div', 'strategy-channel-grid');
+      accounts.forEach(account => directory.append(channelLink(account, isOfficial)));
+      panel.append(directory);
+      if (!isOfficial) panel.append(text('p', 'strategy-directory-note', '已展示 ' + accounts.length + ' 个矩阵账号 · 点击访问主页', accounts.length + ' matrix channels shown · Open any profile'));
+      return panel;
+    }
+    if (official.length) paths.append(path(official, true));
+    if (distribution.length) paths.append(path(distribution, false));
+    wall.append(header, paths);
+    return wall;
+  }
+
   function renderContent() {
     data.projects.forEach((project, index) => {
       const section = el('section', 'project-collection theme-' + project.theme);
@@ -295,8 +337,9 @@
       intro.append(text('p', 'collection-count', project.videos.length + ' 件作品 · ' + project.accounts.length + ' 个账号', project.videos.length + (project.videos.length === 1 ? ' work' : ' works') + ' · ' + project.accounts.length + (project.accounts.length === 1 ? ' channel' : ' channels')));
       if (project.accounts.length) {
         const channels = el('div', 'collection-channels');
-        // Small channel sets get direct entrances; larger directories stay in the shelf.
-        const directAccounts = project.accounts.length <= 3 ? project.accounts : project.accounts.slice(0, 1);
+        const hasStrategy = project.channelLayout === 'brand-matrix';
+        // The matrix directory has its own compact wall below the video shelf.
+        const directAccounts = hasStrategy ? project.accounts.filter(a => a.role === 'official').slice(0, 1) : project.accounts.length <= 3 ? project.accounts : project.accounts.slice(0, 1);
         const multiple = directAccounts.length > 1;
         if (multiple) intro.classList.add('has-channel-options');
         directAccounts.forEach(account => {
@@ -309,16 +352,22 @@
             copy.append(text('span', 'collection-home-platform', platform + '主页', platformEn + ' profile'));
             if (names.length) copy.append(el('span', 'collection-home-name', names.join(' · ')));
             home.append(copy, arrow);
-          } else home.append(text('span', '', '访问账号主页', 'Visit channel'), arrow);
+          } else home.append(text('span', '', hasStrategy ? '访问品牌官方号' : '访问账号主页', hasStrategy ? 'Visit official channel' : 'Visit channel'), arrow);
           channels.append(home);
         });
         intro.append(channels);
+        if (hasStrategy) {
+          const jump = text('a', 'collection-strategy-jump', '查看账号矩阵 ↓', 'Explore the channel matrix ↓');
+          jump.href = '#strategy-' + project.id;
+          intro.append(jump);
+        }
       }
       if (!project.videos.length && project.accounts.length) intro.append(text('p', 'collection-note', '先逛逛账号，精选视频陆续补充。', 'Explore the channels. Selected videos are coming soon.'));
 
       const main = el('div', 'collection-main');
       const toolbar = el('div', 'collection-toolbar');
-      const hint = text('p', 'collection-hint', '作品与账号', 'WORK & CHANNELS');
+      const hasStrategy = project.channelLayout === 'brand-matrix';
+      const hint = text('p', 'collection-hint', hasStrategy ? '内容作品' : '作品与账号', hasStrategy ? 'CONTENT SHOWCASE' : 'WORK & CHANNELS');
       const controls = el('div', 'collection-controls');
       const arrows = el('div', 'collection-arrows');
       const previous = label(el('button', 'shelf-arrow', '←'), '向左浏览 ' + project.name, 'Scroll ' + (project.nameEn || project.name) + ' left');
@@ -335,10 +384,11 @@
       collapse.setAttribute('aria-controls', shelf.id);
       controls.append(arrows, expand); toolbar.append(hint, controls);
       project.videos.forEach(video => shelf.append(videoCard(video, project)));
-      project.accounts.forEach(account => shelf.append(accountCard(account, project)));
+      if (!hasStrategy) project.accounts.forEach(account => shelf.append(accountCard(account, project)));
       if (!shelf.childElementCount) shelf.append(text('p', 'empty-collection', '这个合集的内容正在整理中。', 'This collection is being prepared.'));
       expand.hidden = shelf.childElementCount < 2;
       main.append(toolbar, shelf, collapse); section.append(intro, main); content.append(section);
+      if (hasStrategy && project.accounts.length) section.append(channelStrategy(project));
 
       let expanded = false, savedLeft = 0;
       function updateNavigation() {

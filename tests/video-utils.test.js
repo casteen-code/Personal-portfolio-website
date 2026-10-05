@@ -80,3 +80,18 @@ test('compact counts mark rounding and preserve small exact counts', () => {
   assert.equal(M.formatCount(null),'');
   assert.equal(M.formatCount(-1),'');
 });
+test('brand and distribution channel groups survive draft backup and export', () => {
+  const input={projects:[{id:'dopreel',name:'DopReel',channelLayout:'brand-matrix',accounts:[
+    {label:'TikTok · Official',url:'https://www.tiktok.com/@dopreel',role:'official'},
+    {label:'TikTok · Clips',url:'https://www.tiktok.com/@dopreel.clips',role:'distribution'},
+    {label:'Unknown role',url:'https://example.org/profile',role:'arbitrary'},
+    {label:'Unsafe',url:'javascript:alert(1)',role:'official'}
+  ]}]};
+  const restored=M.normalize(JSON.parse(JSON.stringify(M.normalize(input)))).projects[0];
+  assert.equal(restored.channelLayout,'brand-matrix');
+  assert.equal(restored.accounts.length,3);
+  assert.equal(restored.accounts[0].role,'official');
+  assert.equal(restored.accounts[1].role,'distribution');
+  assert.equal(restored.accounts[2].role,undefined);
+  assert.equal(M.normalize({projects:[{name:'Other'}]}).projects[0].channelLayout,undefined);
+});

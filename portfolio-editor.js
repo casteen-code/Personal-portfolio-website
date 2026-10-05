@@ -32,7 +32,7 @@
   function loadProject() {
     const p = project();
     ['name','description','theme'].forEach(key => { field(pf, key).value = p[key]; });
-    field(pf, 'accounts').value = p.accounts.map(a => (a.label ? a.label + ' | ' : '') + a.url).join('\n');
+    field(pf, 'accounts').value = p.accounts.map(a => (a.label ? a.label + ' | ' : '') + a.url + (a.role ? ' | ' + (a.role === 'official' ? '官方' : '矩阵') : '')).join('\n');
     loadVideos();
     document.querySelector('#preview-draft').href = 'index.html?preview=draft&project=' + encodeURIComponent(projectId) + '#projects';
   }
@@ -93,7 +93,12 @@
       const url = M.extractURL(line);
       if (!url) { message('账号列表有一行没有有效链接，请检查后再保存。', true); return; }
       const label = line.includes('|') ? line.split('|')[0].trim() : new URL(url).hostname.replace(/^www\./,'');
-      accounts.push({label,url});
+      const group = line.split('|')[2]?.trim();
+      if (group && !['官方','矩阵','official','distribution'].includes(group)) {
+        message('账号分组请填写「官方」或「矩阵」。',true); return;
+      }
+      const role = group ? (['官方','official'].includes(group) ? 'official' : 'distribution') : p.accounts.find(a => a.url === url)?.role;
+      accounts.push({label,url,...(role ? {role} : {})});
     }
     if (accounts.length > 40) { message('一个项目最多可放置 40 个账号。',true); return; }
     const name = value(pf,'name'), description = value(pf,'description');

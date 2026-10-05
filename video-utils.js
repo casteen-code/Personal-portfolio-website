@@ -92,7 +92,9 @@
       return {
         id, name: text(p.name, 120), nameEn: text(p.nameEn, 160), description: text(p.description, 1000), descriptionEn: text(p.descriptionEn, 1000),
         theme: ["aigc", "realme", "dopreel"].includes(p.theme) ? p.theme : "aigc",
-        accounts: (Array.isArray(p.accounts) ? p.accounts : []).slice(0, 40).map(a => ({label: text(a?.label, 120), url: webURL(a?.url)})).filter(a => a.url),
+        ...(p.channelLayout === "brand-matrix" ? {channelLayout: "brand-matrix"} : {}),
+        accounts: (Array.isArray(p.accounts) ? p.accounts : []).slice(0, 40).map(a => ({label: text(a?.label, 120), url: webURL(a?.url),
+          ...(["official", "distribution"].includes(a?.role) ? {role: a.role} : {})})).filter(a => a.url),
         videos: (Array.isArray(p.videos) ? p.videos : []).slice(0, 100).map((v, i) => {
           if (!v || typeof v !== "object") throw new Error("Invalid video");
           const key = /^[a-z0-9_-]{1,100}$/i.test(v.id || "") ? v.id : id + "-video-" + i;
