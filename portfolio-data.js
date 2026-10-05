@@ -21,6 +21,19 @@ window.PORTFOLIO_DATA = {
       ],
       "videos": [
         {
+          "id": "douyin-7693121359311818027",
+          "title": "AI 产品时尚大片｜一只手袋的多场景演绎",
+          "titleEn": "AI product fashion film · One handbag, different worlds",
+          "orientation": "portrait",
+          "url": "https://www.douyin.com/video/7693121359311818027",
+          "file": "assets/videos/personal-aigc-douyin-7693121359311818027.mp4",
+          "cover": "assets/cover-personal-aigc-douyin-7693121359311818027.jpg",
+          "background": "以黑色手袋为视觉主线，连接咖啡馆、街头、商场与夜晚聚会。金属搭扣和提手特写强化产品辨识度，人物表情、服装与场景切换则让同一件产品进入不同的生活方式。",
+          "backgroundEn": "A black handbag connects a café, city streets, a shopping space, and an evening gathering. Close-ups of the metal clasp and handle reinforce its identity, while expressions, outfits, and changing settings place the same product in different lifestyles.",
+          "idea": "我想让产品不只是被展示，而是成为场景里的叙事线索。我的思路是围绕同一只手袋保持外观一致，用视线、动作和穿搭变化串联不同场景，在展示质感的同时，让观众想象它在自己生活中的使用方式。",
+          "ideaEn": "I wanted the product to become a visual thread through the scenes. My approach is to keep the same handbag recognizable while connecting settings through glances, gestures, and changing outfits. Alongside showing its texture, I want viewers to imagine how it could fit into their own lives."
+        },
+        {
           "id": "douyin-7692282849889668378",
           "title": "东海岸西游记｜去哪都是 C 位",
           "titleEn": "East Coast Journey to the West · Center stage everywhere",
