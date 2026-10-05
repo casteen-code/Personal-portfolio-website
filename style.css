@@ -308,6 +308,11 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 .collection-home:hover{background:linear-gradient(125deg,rgba(var(--project-rgb),.34),rgba(var(--project-rgb),.15));box-shadow:inset 0 1px 0 rgba(var(--project-rgb),.2),0 8px 26px rgba(var(--project-rgb),.16);transform:translateY(-2px)}
 .collection-home:hover .collection-home-arrow{transform:translate(1px,-1px)}
 .collection-home:focus-visible{outline:2px solid var(--project);outline-offset:4px}
+.collection-channels{display:grid;gap:10px;margin-top:24px}
+.collection-channels .collection-home{margin-top:0}
+.collection-home-copy{display:grid;gap:3px;min-width:0}
+.collection-home-platform{line-height:1.5}
+.collection-home-name{font-size:10px;font-weight:400;letter-spacing:.4px;color:var(--muted);overflow-wrap:anywhere}
 .collection-note{color:var(--muted);font-size:11px;line-height:1.8;margin-top:16px;max-width:200px}
 .collection-main{min-width:0}
 .collection-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;margin-bottom:14px}
@@ -449,3 +454,14 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 .hero-path-ai:focus-visible{outline-color:#c6b3ff}
 #ai-projects{scroll-margin-top:20px}
 @media(max-width:780px){.hero-paths{margin-top:20px;gap:10px}.hero-paths .text-link{gap:12px;padding-left:16px}}
+
+/* Keep each account entrance distinct when the collection intro becomes compact. */
+@media(max-width:780px){
+  .collection-channels{position:absolute;right:0;top:0;margin:0;width:156px}
+  .collection-channels .collection-home{position:static;width:100%;max-width:none}
+  .has-channel-options{min-height:126px}
+}
+@media(max-width:560px){
+  .collection-channels{position:static;margin-top:12px;width:100%;max-width:210px}
+  .has-channel-options{min-height:0}
+}

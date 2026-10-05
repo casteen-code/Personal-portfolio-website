@@ -73,7 +73,7 @@
 
   function contextFields(video, root, complete) {
     const fields = [
-      ['background', '内容定位', 'Content context'], ['idea', '创作看点', 'Creative highlights'],
+      ['background', '作品看点', 'Creative highlights'], ['idea', '我的创作思路', 'My creative approach'],
       ['role', '我参与的部分', 'My part'], ['result', '带来的变化', 'The impact']
     ];
     fields.forEach(([key, zh, en]) => {
@@ -195,7 +195,7 @@
     const info = el(storyKey ? 'details' : 'aside', 'video-context' + (storyKey ? '' : ' context-pending'));
     if (storyKey) {
       const summary = el('summary');
-      summary.append(text('span', 'context-label', '这条作品的看点', 'About this piece'), text('span', 'context-teaser', video[storyKey], video[storyKey + 'En']));
+      summary.append(text('span', 'context-label', '看点与创作思路', 'Highlights & approach'), text('span', 'context-teaser', video[storyKey], video[storyKey + 'En']));
       const more = el('span', 'context-more', '+'); more.setAttribute('aria-hidden', 'true');
       summary.append(more);
       const copy = el('div', 'context-copy'); contextFields(video, copy);
@@ -294,10 +294,25 @@
       intro.append(identity, heading, text('p', 'project-description', project.description, project.descriptionEn));
       intro.append(text('p', 'collection-count', project.videos.length + ' 件作品 · ' + project.accounts.length + ' 个账号', project.videos.length + (project.videos.length === 1 ? ' work' : ' works') + ' · ' + project.accounts.length + (project.accounts.length === 1 ? ' channel' : ' channels')));
       if (project.accounts.length) {
-        const home = label(link(project.accounts[0].url, '', 'collection-home'), '访问 ' + project.name + ' 账号主页', 'Visit ' + (project.nameEn || project.name) + ' channel');
-        const arrow = el('span', 'collection-home-arrow', '↗'); arrow.setAttribute('aria-hidden', 'true');
-        home.append(text('span', '', '访问账号主页', 'Visit channel'), arrow);
-        intro.append(home);
+        const channels = el('div', 'collection-channels');
+        // Small channel sets get direct entrances; larger directories stay in the shelf.
+        const directAccounts = project.accounts.length <= 3 ? project.accounts : project.accounts.slice(0, 1);
+        const multiple = directAccounts.length > 1;
+        if (multiple) intro.classList.add('has-channel-options');
+        directAccounts.forEach(account => {
+          const home = label(link(account.url, '', 'collection-home'), '访问 ' + account.label + ' 账号主页', 'Visit ' + account.label + ' channel');
+          const arrow = el('span', 'collection-home-arrow', '↗'); arrow.setAttribute('aria-hidden', 'true');
+          if (multiple) {
+            const [platform, ...names] = account.label.split(' · ');
+            const platformEn = {'抖音': 'Douyin', '小红书': 'RED'}[platform] || platform;
+            const copy = el('span', 'collection-home-copy');
+            copy.append(text('span', 'collection-home-platform', platform + '主页', platformEn + ' profile'));
+            if (names.length) copy.append(el('span', 'collection-home-name', names.join(' · ')));
+            home.append(copy, arrow);
+          } else home.append(text('span', '', '访问账号主页', 'Visit channel'), arrow);
+          channels.append(home);
+        });
+        intro.append(channels);
       }
       if (!project.videos.length && project.accounts.length) intro.append(text('p', 'collection-note', '先逛逛账号，精选视频陆续补充。', 'Explore the channels. Selected videos are coming soon.'));
 

@@ -28,10 +28,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://xhslink.cn/o/7wsRZyzzLGZ",
           "file": "assets/videos/personal-aigc-xhs-6abf972d000000000a021050.mp4",
           "cover": "assets/cover-personal-aigc-xhs-6abf972d000000000a021050.jpg",
-          "background": "从日常动作示范切入，一次转身就进入戏曲人物与火光交织的场景。用几秒钟的视觉反差，回应“非遗版闪身步”话题。",
-          "backgroundEn": "An everyday movement demonstration becomes a theatrical scene of Chinese opera costume and firelight. A brief visual transformation responds to the heritage-inspired Flash Step challenge.",
-          "idea": "用相似动作连接实拍参考与 AI 画面，再以头饰、眼神和水袖特写强化戏曲美感。看点是动作转场、人物造型与光影氛围的配合；保留原片中的创作者署名。",
-          "ideaEn": "Matching movement connects the live-action reference with AI imagery. Headdress, gaze, and flowing sleeves build the opera aesthetic, with attention to the transition, character styling, and lighting. The original creator credit is preserved.",
+          "background": "一次熟悉的“闪身步”，转入戏曲人物与火光交织的画面。动作衔接让转场有了理由，头饰、水袖与眼神特写，则把几秒钟的反差落在鲜明的戏曲美感上。",
+          "backgroundEn": "A familiar Flash Step moves into a scene of Chinese opera costume and firelight. Matching movement motivates the transition, while the headdress, flowing sleeves, and gaze give the brief transformation a distinct opera aesthetic.",
+          "idea": "我想让观众先认出这个动作，再被它带去一个意想不到的场景。我的切入点是保留动作的辨识度，把变化集中在人物造型、光影和情绪上，让非遗元素成为转场后的记忆点。",
+          "ideaEn": "I want viewers to recognize the movement first, then follow it somewhere unexpected. My approach is to keep the action recognizable while changing the costume, light, and mood, making the opera imagery the memorable payoff.",
           "metrics": {
             "asOf": "2026-10-03",
             "likes": 23,
@@ -46,10 +46,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.douyin.com/video/7691636670264839443",
           "file": "assets/videos/personal-aigc-douyin-7691636670264839443.mp4",
           "cover": "assets/cover-personal-aigc-douyin-7691636670264839443.jpg",
-          "background": "把日常“砍价”话题放进夸张的群像场景，用人物对峙与整齐划一的动作制造荒诞喜剧感。这是一条结合网络话题的个人 AIGC 创意短片。",
-          "backgroundEn": "An everyday bargain-hunting phrase becomes an absurd comedy scene, built around a face-off and synchronized crowd movement. A personal AIGC short responding to an online trend.",
-          "idea": "从主角与西装人群的反差切入，再拉开到绿地上的群体动作，让画面规模与节奏逐步变化。看点是话题转译、重复视觉元素，以及短时长内的情绪推进。",
-          "ideaEn": "Contrast between the central figure and the suited crowd leads into wider group choreography on a green field. The piece explores adapting a social trend, visual repetition, and a changing rhythm within a short runtime.",
+          "background": "把“砍一刀”的日常说法放进夸张的群像场景：一位人物与整齐的西装人群对峙，再用同步动作和场面变化放大荒诞感。语言梗由此变成了有节奏的视觉笑点。",
+          "backgroundEn": "The everyday phrase “one chop” becomes an absurd crowd scene: a lone figure faces a suited group whose synchronized gestures and changing formations turn wordplay into a visual joke.",
+          "idea": "我的切入点是把大家熟悉的砍价话题，转译成一眼能看懂的人物反差。我希望通过重复造型、整齐动作和远近景变化，让笑点逐步升级，也探索 AI 群像在短视频里的叙事空间。",
+          "ideaEn": "My starting point is to turn a familiar bargaining phrase into an immediately readable contrast between people. Repeated styling, synchronized action, and shifts in scale build the joke while exploring how AI crowds can tell a short visual story.",
           "metrics": {
             "asOf": "2026-10-03",
             "likes": 190,
@@ -64,10 +64,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.douyin.com/video/7685706646069606073",
           "file": "assets/videos/personal-aigc-douyin-7685706646069606073.mp4",
           "cover": "assets/cover-personal-aigc-douyin-7685706646069606073.jpg",
-          "background": "以“拍照为什么不笑”为悬念的个人 AIGC 短片。用一个生活化的问题吸引观众，再通过包袋道具与人物表情的变化完成反转。",
-          "backgroundEn": "A personal AIGC short built around a simple question: why won't she smile for the photo? A handbag and a change in expression turn the setup into a playful reveal.",
-          "idea": "从严肃表情切入，以道具入镜推进情绪变化，最后用笑容与概念广告式画面收尾。看点是短时长内的叙事节奏、人物视觉一致性和产品露出方式；灵感来源保留在原视频说明中。",
-          "ideaEn": "A serious expression sets up the hook; the prop changes the mood, and the smile delivers the payoff. The piece explores concise visual storytelling, character consistency, and product placement. Inspiration is credited in the original post."
+          "background": "女孩拍照时始终不笑，直到一只包袋进入画面，表情才发生变化。一个简单的悬念和前后反差，让道具自然成为故事的转折点，而不是单独展示的商品。",
+          "backgroundEn": "A girl keeps a serious face for a photo until a handbag enters the frame and changes her expression. A simple question and a clear before-and-after make the prop the story’s turning point.",
+          "idea": "我想从“她为什么不笑”这个小问题留住观众，再让笑容给出答案。这条个人概念短片里，我关注的是产品如何触发情绪变化，让观众先理解人物的感受，再记住画面里的物品。",
+          "ideaEn": "I start with a small question—why won’t she smile?—and let the smile deliver the answer. In this personal concept film, I focus on how an object triggers emotion, so viewers understand the feeling before remembering the product."
         },
         {
           "id": "douyin-7680521449476951985",
@@ -77,10 +77,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.douyin.com/video/7680521449476951985",
           "file": "assets/videos/personal-aigc-douyin-7680521449476951985.mp4",
           "cover": "assets/cover-personal-aigc-douyin-7680521449476951985.jpg",
-          "background": "以 Apple Music 为主题的个人 AIGC 概念短片，把听音乐的放松感转化为复古磁带、人物舞动与室内光影，探索音乐类内容的视觉表达。",
-          "backgroundEn": "A personal AIGC concept film inspired by Apple Music. Retro cassette imagery, movement, and interior lighting translate the feeling of unwinding with music into a visual story.",
-          "idea": "用磁带特写建立复古情绪，再切入人物动作与空间镜头，让感受先于产品名称出现。可关注氛围营造、镜头衔接，以及如何用画面表达音乐产品的情绪价值。",
-          "ideaEn": "A cassette close-up establishes the mood before the film moves into character and interior shots. The focus is on atmosphere, shot sequencing, and expressing a music product's emotional appeal through imagery."
+          "background": "磁带、耳机和室内光影，把“听一首歌”的感受变成可见的场景变化。复古道具与现代音乐品牌形成碰撞，画面的冷暖对比承接从日常进入放松状态的情绪。",
+          "backgroundEn": "Cassettes, earphones, and interior light turn listening to a song into a visible change of scene. A retro object meets a modern music brand, with cool and warm imagery carrying the shift into relaxation.",
+          "idea": "这条 Apple Music 个人概念短片里，我想表达音乐带来的状态切换。我把磁带理解成进入情绪世界的开关，让人物、空间和光线共同讲述放松的感觉，再用品牌画面收束。",
+          "ideaEn": "In this personal Apple Music concept film, I want to express the change of state that music brings. I treat the cassette as a switch into an inner world, using the person, space, and light to convey relaxation before the brand ending."
         },
         {
           "id": "douyin-7677558539988094193",
@@ -90,19 +90,21 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.douyin.com/video/7677558539988094193",
           "file": "assets/videos/personal-aigc-douyin-7677558539988094193.mp4",
           "cover": "assets/cover-personal-aigc-douyin-7677558539988094193.jpg",
-          "background": "围绕网球、泳池与夏日饮品展开的个人 AIGC 视觉练习，让普通运动道具成为生活方式短片的主角。",
-          "backgroundEn": "A personal AIGC visual study connecting tennis, a swimming pool, and summer drinks, turning an everyday sports object into the focus of a lifestyle film.",
-          "idea": "利用网球、柠檬与饮品的色彩和圆形元素建立画面关联，搭配物品特写与人物局部镜头，形成连贯的夏日氛围。看点是视觉联想、细节呈现和镜头组织。",
-          "ideaEn": "Color and circular forms connect tennis balls, lemons, and drinks. Object close-ups and cropped character shots build a consistent summer mood, highlighting visual association, detail, and shot composition."
+          "background": "网球变成冰淇淋般的叠放造型，又与柠檬、泳池和饮品产生关联。黄色圆形元素贯穿镜头，球拍也进入新的使用场景，让普通运动道具带出轻松的夏日想象。",
+          "backgroundEn": "Tennis balls become an ice-cream-like stack and connect with lemons, a pool, and summer drinks. Yellow circular forms link the shots, while a racket takes on unexpected uses in a playful summer world.",
+          "idea": "我想试试，一颗普通网球能带出多少种视觉联想。我用圆形、黄绿色和清凉的水感作为线索，让不同物品之间有联系；通过材质与用途的错位，把运动题材延伸成生活方式表达。",
+          "ideaEn": "I wanted to see how many visual associations an ordinary tennis ball could suggest. Circular forms, yellow-green tones, and cool water connect the objects; unexpected materials and uses turn a sports theme into a lifestyle story."
         },
         {
           "id": "aigc-presenter",
           "title": "AI 数字人口播",
           "titleEn": "AI presenter videos",
           "url": "https://xwwj8gvuy9h.feishu.cn/wiki/UAMtwRM6Qi1jEekRa4ecPHbEnuc#NME0dKvEwohMGlxDxtTcbZU1nlf",
-          "background": "收录于原有飞书作品集的「AIGC 数字人口播」部分，可在作品原页查看。",
-          "backgroundEn": "Collected in the AI presenter section of the original Feishu portfolio. Open the original page to explore.",
-          "orientation": "portrait"
+          "background": "以“春晚为什么在晚上八点开播”等具体问题开场，用正面口播、重点字幕和辅助画面组织信息。数字人承载讲解，视觉提示帮助观众跟上内容，适合知识类短视频的表达。",
+          "backgroundEn": "A specific question, such as why the Spring Festival Gala starts at 8 p.m., opens a presenter-led explanation. Direct address, emphasized captions, and supporting visuals organize information for a short knowledge video.",
+          "orientation": "portrait",
+          "idea": "我关注的是数字人口播能否把一个问题讲清楚。我的思路是从观众会好奇的问题出发，把信息拆成易理解的小段，再让字幕和辅助画面服务讲解，让 AI 形象成为内容表达的载体。",
+          "ideaEn": "I focus on whether an AI presenter can explain a question clearly. My approach starts with audience curiosity, breaks information into manageable parts, and uses captions and supporting visuals to serve the explanation."
         }
       ]
     },
@@ -110,8 +112,8 @@ window.PORTFOLIO_DATA = {
       "id": "realme",
       "name": "realme",
       "nameEn": "realme",
-      "description": "印尼手机电商的产品内容与账号运营。",
-      "descriptionEn": "Product content and account operations for phone commerce in Indonesia.",
+      "description": "将产品卖点融入创意表达，为产品增长赋能。",
+      "descriptionEn": "Weaving product benefits into creative storytelling to support product growth.",
       "theme": "realme",
       "accounts": [
         {
@@ -127,10 +129,10 @@ window.PORTFOLIO_DATA = {
           "orientation": "portrait",
           "url": "https://www.tiktok.com/@realme.indonesia/video/7657075855360920852",
           "cover": "assets/cover-realme-tiktok-7657075855360920852.jpg",
-          "background": "用宿舍深夜的惊悚喜剧桥段切入长时间开黑的场景，把 realme P4x 的 8000mAh 电池卖点转化为印尼手游玩家容易代入的故事。",
-          "backgroundEn": "A late-night room turns into a horror-comedy setup for an extended gaming session, translating the realme P4x 8000mAh battery message into a story for Indonesian mobile gamers.",
-          "idea": "先用监控画面和惊吓情节制造悬念，再反转为一起游戏，让产品在情节推进中自然出现。看点是印尼语表达、反差喜剧节奏，以及从娱乐故事到续航卖点的衔接。",
-          "ideaEn": "Surveillance-style imagery and a scare establish suspense before the scene turns into gaming together. Indonesian dialogue, comic contrast, and in-story product use connect the entertainment hook to the battery message.",
+          "background": "深夜宿舍、监控视角和印尼观众熟悉的鬼怪形象，先制造惊悚预期，再反转成一起开黑。8000mAh 续航卖点由此进入“游戏一直玩得下去”的喜剧情境。",
+          "backgroundEn": "A late-night room, surveillance imagery, and a familiar Indonesian ghost set up a scare that turns into gaming together. The 8000mAh battery message becomes part of a comedy about keeping the session going.",
+          "idea": "我的内容切入点是本地观众熟悉的恐怖喜剧语境，先建立悬念，再用一起玩游戏的反差释放情绪。我希望观众记住的是持续开黑的体验，再把这种体验与大电池卖点联系起来。",
+          "ideaEn": "My content angle draws on familiar Indonesian horror comedy: build suspense, then release it through the surprise of gaming together. I want the lasting impression to be an uninterrupted session that connects naturally to the large-battery message.",
           "metrics": {
             "asOf": "2026-09-29",
             "views": 13700000,
@@ -147,10 +149,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.tiktok.com/@realme.indonesia/video/7634855357172550919",
           "file": "assets/videos/realme-tiktok-7634855357172550919.mp4",
           "cover": "assets/cover-realme-tiktok-7634855357172550919.jpg",
-          "background": "用“及时回对象消息”的轻剧情切入，让观众先进入熟悉的关系场景，再理解 realme C100 Series 应对涉水环境的产品卖点。",
-          "backgroundEn": "A light relationship scenario—replying promptly to a partner—introduces the realme C100 Series, making its water-resistance message relevant to an everyday situation.",
-          "idea": "通过户外、泳池和洗车等连续情境，把产品功能嵌入日常行为；结尾补充机型与预购信息。看点是印尼本地化表达、卖点场景化，以及娱乐内容与产品信息的衔接。",
-          "ideaEn": "Outdoor, pool, and vehicle-washing scenes place the feature in everyday action, followed by model and preorder information. The piece connects local humor, feature-led scenarios, and a product call to action.",
+          "background": "踢球、游泳、洗车时，都要及时回复对象的消息。反复出现的关系情境制造轻喜剧节奏，湿手、雨中操作手机的画面，则让“屏幕依然灵敏”有了具体的使用理由。",
+          "backgroundEn": "Football, swimming, and washing a motorbike all come with the expectation of replying to a partner. The repeated relationship joke gives wet-hand and rainy-screen operation a concrete everyday purpose.",
+          "idea": "我想从“消息要及时回”这个生活共鸣进入，再让产品功能成为情境里的解决办法。通过不同场景重复同一个需求，观众更容易理解湿手与雨中触控的价值，也能自然接到结尾的产品信息。",
+          "ideaEn": "I start with the relatable expectation of a quick reply, then let the feature solve a problem within that situation. Repeating the need across settings makes responsive touch in wet conditions easier to understand and leads into the product ending.",
           "metrics": {
             "asOf": "2026-09-29",
             "views": 12900000,
@@ -164,12 +166,12 @@ window.PORTFOLIO_DATA = {
           "titleEn": "realme C100 Series · Aman Ajaaa",
           "url": "https://www.tiktok.com/@realme.indonesia/video/7633722299027426577",
           "cover": "assets/realme-c100-video-cover.jpg",
-          "background": "realme Indonesia 的 C100 Series 预热视频。公开文案以「Semua kondisi, Aman Ajaaa」为主题，预告 2026 年 5 月 7 日发布，并使用 #8000mAhDurableChampion 话题。",
-          "backgroundEn": "A C100 Series teaser from realme Indonesia. The public caption uses “Semua kondisi, Aman Ajaaa,” announces a May 7, 2026 launch, and includes #8000mAhDurableChampion.",
+          "background": "夸张的户外场景、手机使用画面与反复出现的“Aman Ajaaa”串成一组节奏鲜明的片段。口号把不同情境归到“放心用”的感受上，结尾再回到机型与大电池信息。",
+          "backgroundEn": "Exaggerated outdoor scenes, phone use, and the recurring “Aman Ajaaa” slogan form a rhythmic sequence. The phrase ties varied situations to a feeling of reassurance before the model and large-battery message close the film.",
           "orientation": "portrait",
           "file": "assets/videos/realme-c100-teaser.mp4",
-          "idea": "用夸张的户外情境与反复出现的“Aman Ajaaa”口号建立记忆点，结尾回到机型、续航主题和预购信息。看点是品牌口号的视听强化，以及从趣味桥段到产品信息的自然过渡。",
-          "ideaEn": "Exaggerated outdoor situations and the recurring Aman Ajaaa slogan create a memorable hook before the film returns to the model, battery message, and preorder details. The focus is connecting entertainment with a clear product message.",
+          "idea": "我的表达重点是让一句“Aman Ajaaa”连接多个使用场景。我希望先通过有趣的情境建立记忆，再用口号和产品画面收拢信息，让娱乐感与续航卖点指向同一个品牌印象。",
+          "ideaEn": "My focus is on using “Aman Ajaaa” to connect several situations. I want the playful scenes to build recall, then bring the slogan and product imagery together so entertainment and battery performance reinforce the same brand impression.",
           "metrics": {
             "asOf": "2026-09-29",
             "views": 115800000,
@@ -183,8 +185,8 @@ window.PORTFOLIO_DATA = {
       "id": "dopreel",
       "name": "DopReel",
       "nameEn": "DopReel",
-      "description": "短剧内容、幕后花絮与多平台分发。",
-      "descriptionEn": "Short dramas, behind-the-scenes content, and cross-platform distribution.",
+      "description": "围绕同一部短剧，从品牌传播与内容分销两个角度设计分发动作，兼顾平台流量、变现路径与渠道增长。",
+      "descriptionEn": "Designing distinct brand and distribution paths for the same drama, connecting platform reach, monetization, and channel growth.",
       "theme": "dopreel",
       "accounts": [
         {
@@ -249,10 +251,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.facebook.com/reel/1329249665768052/",
           "file": "assets/videos/dopreel-facebook-1329249665768052.mp4",
           "cover": "assets/cover-dopreel-facebook-1329249665768052.jpg",
-          "background": "《Tim Istri Sah》的剧情切片，以人物冲突和情绪特写建立张力，为印尼短剧观众提供一段无需长铺垫也能进入的剧情。",
-          "backgroundEn": "A scene-led cut from Tim Istri Sah, using interpersonal conflict and expressive close-ups to give Indonesian short-drama viewers an accessible entry into the story.",
-          "idea": "保留关键对白与人物反应，配合印尼语字幕、剧名和品牌标识，帮助新观众迅速理解人物立场。可关注剧情钩子的选择、短视频信息密度与短剧账号的内容包装。",
-          "ideaEn": "Key dialogue and reactions are paired with Indonesian subtitles, the series title, and platform branding. The piece highlights scene selection, concise storytelling, and packaging a drama excerpt for social discovery.",
+          "background": "冲突对白与人物反应直接把观众带进《Tim Istri Sah》的关系张力。印尼语字幕降低理解门槛，剧名与 DopReel 标识持续出现，让剧情吸引力也能被关联到具体剧集和平台。",
+          "backgroundEn": "Confrontational dialogue and reaction shots bring viewers straight into the tension of Tim Istri Sah. Indonesian subtitles make the scene accessible, while the series title and DopReel branding connect the dramatic hook to a specific viewing destination.",
+          "idea": "从分发角度，我优先关注不用长铺垫也能看懂的冲突片段，让新观众迅速进入人物关系。同时保留剧名和品牌识别，把一次刷到的情绪兴趣，接到继续了解剧集的动机上。",
+          "ideaEn": "From a distribution perspective, I focus on conflict that makes sense without a long setup, helping new viewers enter the relationships quickly. Keeping the title and brand visible connects a moment of emotional interest to a reason to explore the series.",
           "metrics": {
             "asOf": "2026-09-29",
             "views": 1538958
@@ -266,10 +268,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.tiktok.com/@dopreel/video/7628881939348540692",
           "file": "assets/videos/dopreel-tiktok-7628881939348540692.mp4",
           "cover": "assets/cover-dopreel-tiktok-7628881939348540692.jpg",
-          "background": "围绕 Jonathan 与 Zahra 的演员出镜内容，为《Putri Pewaris Lahir Kembali dan Memilih Ayah Baru》补充角色之外的亲近感，是剧情切片之外的短剧宣发形式。",
-          "backgroundEn": "An on-camera cast introduction around Jonathan and Zahra for Putri Pewaris Lahir Kembali dan Memilih Ayah Baru, adding a personal connection alongside the series' dramatic clips.",
-          "idea": "用演员自我介绍、片场感交流与观看邀请串联内容，让观众从认识人物走向了解剧集。可关注演员内容的亲和力、印尼语沟通，以及结尾对 DopReel 观看入口的承接。",
-          "ideaEn": "Cast introductions and informal conversation lead into an invitation to watch on DopReel. The focus is an approachable cast-led format, Indonesian-language communication, and a clear viewing invitation.",
+          "background": "Jonathan 与 Zahra 从角色回到演员本人，自我介绍与片场画面交替，呈现剧情之外的亲近感。结尾的观看邀请把认识演员、了解剧集和进入 DopReel 串成一条清晰路径。",
+          "backgroundEn": "Jonathan and Zahra step out of character through introductions and on-set footage, adding warmth beyond the drama. A closing invitation connects meeting the cast with discovering the series and watching on DopReel.",
+          "idea": "我希望品牌账号除了提供剧情刺激，也能让观众认识演员、建立亲近感。因此我把这类内容视为剧情切片的补充：用真实交流承接兴趣，再自然引向剧集和 App 观看入口。",
+          "ideaEn": "I want the brand account to offer a connection with the cast as well as dramatic hooks. I see this format as a complement to scene clips: approachable conversation develops interest and leads naturally to the series and the app’s viewing entry point.",
           "metrics": {
             "asOf": "2026-09-29",
             "views": 66400,
@@ -285,10 +287,10 @@ window.PORTFOLIO_DATA = {
           "url": "https://www.facebook.com/reel/1527503905412000/",
           "file": "assets/videos/dopreel-facebook-1527503905412000.mp4",
           "cover": "assets/cover-dopreel-facebook-1527503905412000.jpg",
-          "background": "以“Dimas 会选谁？”作为人物关系悬念，把《Tim Istri Sah》中的冲突整理为短视频入口，让观众带着问题进入剧情。",
-          "backgroundEn": "A relationship-driven cut from Tim Istri Sah framed by the question: who will Dimas choose? The unresolved choice gives viewers a reason to engage with the story.",
-          "idea": "结合冲突对白、人物进场与表情反应维持悬念，辅以印尼语字幕和统一剧集标识。看点是如何把长剧情中的关系张力提炼成短视频钩子，为后续观看留下动机。",
-          "ideaEn": "Confrontational dialogue, character entrances, and reaction shots sustain the question, supported by Indonesian subtitles and series branding. The piece demonstrates how relationship tension can become a concise short-video hook.",
+          "background": "电话、人物进场与表情反应不断改变关系中的紧张感，“Dimas 会选谁？”成为贯穿片段的问题。悬念保留了继续观看的空间，字幕和统一标识帮助新观众辨认剧情与来源。",
+          "backgroundEn": "A phone call, an entrance, and reaction shots shift the relationship tension, held together by the question “Who will Dimas choose?” The unresolved choice invites further viewing, with subtitles and consistent branding clarifying the scene and its source.",
+          "idea": "我关注如何把长剧情里的关系选择，提炼成短视频里一个清楚的问题。分发时，我希望片段既能独立吸引注意，也留下继续看的理由；用统一的剧集识别，把话题兴趣接回完整内容。",
+          "ideaEn": "I focus on distilling a relationship choice from a longer story into one clear short-video question. For distribution, I want the excerpt to attract attention on its own while leaving a reason to continue, using consistent series identification to connect interest with the full story.",
           "metrics": {
             "asOf": "2026-09-29",
             "views": 1757020
