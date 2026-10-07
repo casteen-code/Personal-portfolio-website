@@ -21,6 +21,19 @@ window.PORTFOLIO_DATA = {
       ],
       "videos": [
         {
+          "id": "xhs-6ac5c0110000000014039af0",
+          "title": "一句话生成品牌创意短片",
+          "titleEn": "A brand concept film from a single prompt",
+          "orientation": "portrait",
+          "url": "https://xhslink.cn/o/5AozHWxmdeJ",
+          "file": "assets/videos/personal-aigc-xhs-6ac5c0110000000014039af0.mp4",
+          "cover": "assets/cover-personal-aigc-xhs-6ac5c0110000000014039af0.jpg",
+          "background": "以行李传送带上的荒诞群像开场，模特、黑色服装、鞋履和手袋特写依次进入画面。冷灰空间、烟雾与材质细节形成统一的时尚氛围，让单品展示有了鲜明的视觉记忆点。",
+          "backgroundEn": "An absurd crowd on a baggage conveyor opens the film, followed by a model and close-ups of black clothing, footwear, and a handbag. A cool grey space, smoke, and material details create a consistent fashion mood and a distinctive visual identity for the products.",
+          "idea": "我想把品牌气质转化成一个一眼有记忆点的场景，而不只是陈列单品。我的切入点是让行李传送带变成一场不合常理的时装秀，再用人物姿态、材质特写和产品近景串联服装、鞋履与手袋，让视觉冲击最终回到产品。",
+          "ideaEn": "I wanted to turn a brand mood into a memorable scene rather than a display of individual items. My starting point is to transform a baggage conveyor into an unexpected fashion show, then connect clothing, footwear, and a handbag through poses, textures, and close-ups so the visual impact leads back to the products."
+        },
+        {
           "id": "douyin-7693121359311818027",
           "title": "AI 产品时尚大片｜一只手袋的多场景演绎",
           "titleEn": "AI product fashion film · One handbag, different worlds",
