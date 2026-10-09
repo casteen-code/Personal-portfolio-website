@@ -21,6 +21,19 @@ window.PORTFOLIO_DATA = {
       ],
       "videos": [
         {
+          "id": "xhs-6ac86ef8000000001403bb2d",
+          "title": "一句话生成网球时尚短片🎾",
+          "titleEn": "A tennis fashion film from a single prompt 🎾",
+          "orientation": "portrait",
+          "url": "https://xhslink.cn/o/3u84gi4m2NB",
+          "file": "assets/videos/personal-aigc-xhs-6ac86ef8000000001403bb2d.mp4",
+          "cover": "assets/cover-personal-aigc-xhs-6ac86ef8000000001403bb2d.jpg",
+          "background": "网球场边的报纸、粉色帽子和蓝白穿搭，建立轻松的运动时尚氛围。球拍与运动鞋特写、报纸上的眼睛以及网球入镜后的反应串起一个小故事，让穿搭展示带出幽默与人物关系。",
+          "backgroundEn": "A newspaper, a pink cap, and blue-and-white outfits create a relaxed courtside fashion mood. Racket and sneaker close-ups, eyes printed on the newspaper, and a reaction to a tennis ball connect a small story, giving the styling a playful sense of character and interaction.",
+          "idea": "我想把网球风拍成一段有生活感的场边小故事，而不是只展示一套穿搭。我的思路是用报纸和网球作为注意力的线索，让人物反应带动节奏，再穿插球拍、鞋履与服装细节，把运动气质和轻松的幽默感放在同一条视觉线上。",
+          "ideaEn": "I wanted to turn tennis style into a small slice of courtside life. My approach is to use the newspaper and tennis ball to guide attention, let reactions set the pace, and weave in racket, footwear, and clothing details so the sporty mood and light humor share one visual thread."
+        },
+        {
           "id": "xhs-6ac5c0110000000014039af0",
           "title": "一句话生成品牌创意短片",
           "titleEn": "A brand concept film from a single prompt",
