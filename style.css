@@ -456,7 +456,7 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 @media(max-width:780px){.project-collection{grid-template-columns:1fr;gap:17px;padding:23px;scroll-margin-top:20px}.collection-intro{position:relative;padding:0 174px 0 65px}.project-identity{margin:0}.project-icon{position:absolute;left:0;top:0}.project-number{display:none}.collection-intro h3{font-size:25px}.project-description{margin:7px 0 10px;min-height:0;font-size:11px;max-width:none}.collection-home{position:absolute;right:0;top:0;margin:0;width:156px}.collection-count{font-size:10px}.collection-note{max-width:none;margin-top:6px;font-size:10px}.collection-toolbar{margin-bottom:12px}.gallery-heading{align-items:start;flex-direction:column;gap:12px}}
 @media(max-width:560px){.project-collection{padding:18px 16px;border-radius:18px;gap:13px}.project-collection+.project-collection{margin-top:20px}.collection-intro{padding:0 0 0 58px}.collection-intro h3{font-size:24px;padding-right:4px}.project-icon{width:43px;height:43px;font-size:30px;border-radius:13px}.project-description{margin-bottom:7px;font-size:11px}.collection-home{position:static;margin-top:12px;width:100%;max-width:210px;min-height:48px;font-size:12px;padding:9px 12px}.collection-note{margin-top:12px}.collection-shelf{gap:14px}.collection-shelf>.video-card,.collection-shelf>.account-card{flex-basis:calc(100% - 24px)}.account-cover{height:270px}.collection-hint{font-size:9px;letter-spacing:0}.collection-controls,.collection-arrows{gap:4px}.shelf-arrow{width:40px;height:44px;border-radius:22px}.collection-expand{padding-left:8px;font-size:10px}.collection-shelf .video-caption h4{font-size:16px}.is-expanded .collection-shelf{grid-template-columns:1fr;gap:24px}.is-expanded .collection-shelf>.video-card,.is-expanded .collection-shelf>.account-card{max-width:none}.gallery-heading>p{font-size:10px}.collection-shelf .video-platform{font-size:7px}}
 
-/* The public identity and the four AI workflow projects. */
+/* Public identity and the bounded AI-assisted project directory. */
 .brand-name>b,.about-identity h2>b{font:inherit}
 .ai-project-list{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:0}
 .ai-project-list li{display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;padding:16px 0;border-top:1px solid #31415a}
@@ -466,6 +466,24 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 .ai-project-list h4 a:hover{color:var(--accent)}
 .ai-project-arrow{color:var(--accent);font-size:18px;flex-shrink:0}
 .ai-project-list p{font-size:12px;color:var(--muted);line-height:1.75;margin-top:6px}
+.ai-tools-card .ai-featured-project h4{font-size:17px;font-weight:550}
+.ai-tools-card .ai-featured-project p{font-size:16px;line-height:1.65}
+.ai-tools-card .ai-featured-project .ai-project-limit{font-size:13px;line-height:1.7;color:#a9b6ca;margin-top:7px}
+.ai-project-links{display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px;margin-top:10px}
+.ai-project-links a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 11px;border:1px solid #3d6578;border-radius:7px;color:#bfeef7;font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.ai-project-links a:hover{background:#11dff314;border-color:#75c8d5}
+.ai-project-links a:focus-visible,.ai-more-practices summary:focus-visible,.ai-practice-list a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.ai-more-practices{margin-top:4px;border-block:1px solid #31415a}
+.ai-more-practices summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;padding:10px 0;cursor:pointer;font-size:14px;color:#d1e8f2;list-style:none}
+.ai-more-practices summary::-webkit-details-marker{display:none}
+.ai-more-icon{font-size:20px;color:var(--accent)}
+.ai-more-practices[open] .ai-more-icon{transform:rotate(45deg)}
+.ai-practice-list{list-style:none;padding:0 0 16px;margin:0;display:grid;gap:14px}
+.ai-practice-list h4{font-size:14px;font-weight:500;line-height:1.6}
+.ai-practice-list h4 a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;color:#bfeef7}
+.ai-practice-list h4 a:hover{color:var(--accent)}
+.ai-practice-list p{font-size:13px;line-height:1.7;color:var(--muted);margin-top:3px}
+.ai-tools-card>.text-link{min-height:44px;align-self:flex-start}
 .film-card .film-word{border-left:2px solid #a38ae766;padding-left:22px;color:#c4b3f4}
 .film-card>.text-link{margin-top:auto;padding-top:12px}
 @media(max-width:560px){.ai-project-list li{gap:8px;grid-template-columns:22px minmax(0,1fr)}.ai-project-list h4{font-size:13px}.ai-project-list p{font-size:11px}.film-card .film-word{margin:25px 0 5px;font-size:38px}.nav{gap:19px}}
