@@ -456,11 +456,15 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 @media(max-width:780px){.project-collection{grid-template-columns:1fr;gap:17px;padding:23px;scroll-margin-top:20px}.collection-intro{position:relative;padding:0 174px 0 65px}.project-identity{margin:0}.project-icon{position:absolute;left:0;top:0}.project-number{display:none}.collection-intro h3{font-size:25px}.project-description{margin:7px 0 10px;min-height:0;font-size:11px;max-width:none}.collection-home{position:absolute;right:0;top:0;margin:0;width:156px}.collection-count{font-size:10px}.collection-note{max-width:none;margin-top:6px;font-size:10px}.collection-toolbar{margin-bottom:12px}.gallery-heading{align-items:start;flex-direction:column;gap:12px}}
 @media(max-width:560px){.project-collection{padding:18px 16px;border-radius:18px;gap:13px}.project-collection+.project-collection{margin-top:20px}.collection-intro{padding:0 0 0 58px}.collection-intro h3{font-size:24px;padding-right:4px}.project-icon{width:43px;height:43px;font-size:30px;border-radius:13px}.project-description{margin-bottom:7px;font-size:11px}.collection-home{position:static;margin-top:12px;width:100%;max-width:210px;min-height:48px;font-size:12px;padding:9px 12px}.collection-note{margin-top:12px}.collection-shelf{gap:14px}.collection-shelf>.video-card,.collection-shelf>.account-card{flex-basis:calc(100% - 24px)}.account-cover{height:270px}.collection-hint{font-size:9px;letter-spacing:0}.collection-controls,.collection-arrows{gap:4px}.shelf-arrow{width:40px;height:44px;border-radius:22px}.collection-expand{padding-left:8px;font-size:10px}.collection-shelf .video-caption h4{font-size:16px}.is-expanded .collection-shelf{grid-template-columns:1fr;gap:24px}.is-expanded .collection-shelf>.video-card,.is-expanded .collection-shelf>.account-card{max-width:none}.gallery-heading>p{font-size:10px}.collection-shelf .video-platform{font-size:7px}}
 
-/* Public identity and the bounded AI-assisted project directory. */
+/* Public identity and the six-project AI-assisted directory. */
 .brand-name>b,.about-identity h2>b{font:inherit}
-.ai-project-list{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:0}
-.ai-project-list li{display:grid;grid-template-columns:26px minmax(0,1fr);gap:12px;padding:16px 0;border-top:1px solid #31415a}
+.more-grid>.ai-tools-card{grid-column:1/-1;min-width:0}
+.ai-tools-card>p{max-width:76ch}
+.ai-project-list{list-style:none;margin:26px 0 22px;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.ai-project-list li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;padding:20px 18px;border:1px solid #31415a;border-radius:12px;background:#101b2d;min-width:0}
+.ai-featured-project>div{display:flex;flex-direction:column;min-width:0}
 .ai-project-index{font:10px ui-monospace,monospace;color:var(--accent);padding-top:4px;opacity:.75}
+.ai-project-state{color:#a7d7e0;font-size:11px;line-height:1.6;letter-spacing:.02em;margin-bottom:9px}
 .ai-project-list h4{font-size:14px;font-weight:550;line-height:1.5;color:#e6f4fa;overflow-wrap:anywhere}
 .ai-project-list h4 a{display:flex;justify-content:space-between;gap:14px;align-items:center}
 .ai-project-list h4 a:hover{color:var(--accent)}
@@ -468,8 +472,8 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 .ai-project-list p{font-size:12px;color:var(--muted);line-height:1.75;margin-top:6px}
 .ai-tools-card .ai-featured-project h4{font-size:17px;font-weight:550}
 .ai-tools-card .ai-featured-project p{font-size:16px;line-height:1.65}
-.ai-tools-card .ai-featured-project .ai-project-limit{font-size:13px;line-height:1.7;color:#a9b6ca;margin-top:7px}
-.ai-project-links{display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px;margin-top:10px}
+.ai-tools-card .ai-featured-project .ai-project-limit{font-size:14px;line-height:1.7;color:#a9b6ca;margin-top:12px;margin-bottom:4px}
+.ai-project-links{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;margin-top:auto;padding-top:14px}
 .ai-project-links a{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 11px;border:1px solid #3d6578;border-radius:7px;color:#bfeef7;font-size:12px;line-height:1.5;overflow-wrap:anywhere}
 .ai-project-links a:hover{background:#11dff314;border-color:#75c8d5}
 .ai-project-links a:focus-visible,.ai-more-practices summary:focus-visible,.ai-practice-list a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
@@ -490,6 +494,16 @@ body[data-lang="en"] .featured-copy h3{font-size:clamp(26px,2.8vw,38px)}
 .film-card .film-study{font-size:clamp(24px,3vw,36px);line-height:1.45;letter-spacing:.02em}
 .film-study>span{font-size:11px;letter-spacing:2px;margin:0 0 8px}
 .film-study>strong{font-weight:500}
+.more-grid>.film-card{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);column-gap:48px}
+.more-grid>.film-card>.more-top{grid-column:1;grid-row:1}
+.more-grid>.film-card>h3{grid-column:1;grid-row:2}
+.more-grid>.film-card>p{grid-column:1;grid-row:3}
+.more-grid>.film-card>.text-link{grid-column:1;grid-row:4;justify-self:start;margin-top:16px;min-height:44px}
+.more-grid>.film-card>.film-word{grid-column:2;grid-row:1/3;align-self:center;margin:0;padding-block:0}
+.more-grid>.film-card>.creative-links{grid-column:2;grid-row:3/5;margin:0;align-self:start}
+@media(max-width:1100px){.ai-project-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:780px){.more-grid>.film-card{display:flex}.more-grid>.film-card>.film-word{align-self:stretch;margin:24px 0 12px}.more-grid>.film-card>.creative-links{align-self:stretch}.more-grid>.film-card>.text-link{align-self:flex-start}}
+@media(max-width:640px){.ai-project-list{grid-template-columns:1fr;gap:14px}.ai-tools-card .ai-featured-project{grid-template-columns:22px minmax(0,1fr);gap:8px;padding:18px 14px}.ai-tools-card .ai-featured-project h4{font-size:17px}.ai-project-links{gap:8px}}
 
 /* Two entry points into the portfolio, using the existing project colors. */
 .hero-paths{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
